@@ -1,3 +1,8 @@
+*{
+  max-width: 1366px;
+  margin: 60px;
+}
+
 /* Cores e Fontes */
 
 :root{
@@ -16,10 +21,10 @@
   --gray-600: #E2E4E9; 
  
   /* Font Asap */
-  --font-family-Asap: 'Asap';
-  --Asap-title-lg: 800 56px/120% bold var(--font-family-Asap);
-  --Asap-title-md: 800 24px/120% bold var(--font-family-Asap);
-  --Asap-title-sm: 800 16px/120% bold var(--font-family-Asap);
+  --font-family-asap: 'Asap', sans-serif;
+  --title-lg: 800 56px/120% bold var(--font-family-asap);
+  --title-md: 800 24px/120% bold var(--font-family-asap);
+  --title-sm: 800 16px/120% bold var(--font-family-asap);
 
   /* Font Inconsolata */
   --font-family-inconsolata: 'inconsolata';
@@ -30,3 +35,20 @@
   --text-md: 800 16px/140% var(--font-family-maven);
   --text-sm: 800 14px/140% var(--font-family-maven);
 }
+
+#initial h2{
+  font: var(--subtitle-in);
+}
+
+#initial h1{
+ font-family: 'asap';
+ font-size: 56px;
+ line-height: 120%;
+ font:800 bold;
+} 
+
+#initial h3{
+  font: var(--text-sm);
+}
+
+
