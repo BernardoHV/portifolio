@@ -1,6 +1,6 @@
 *{
   max-width: 1366px;
-  margin: 60px;
+  
 }
 
 /* Cores e Fontes */
@@ -36,7 +36,13 @@
   --text-sm: 800 14px/140% var(--font-family-maven);
 }
 
+#initial{
+  width: 680px;
+  height: 327px;
+}
+
 #initial h2{
+  margin-top: 56px;
   font: var(--subtitle-in);
 }
 
@@ -51,4 +57,8 @@
   font: var(--text-sm);
 }
 
-
+#avatar{
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+}
