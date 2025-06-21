@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
-div{
+#inicio{
   width: 1307px;
   height: 600px;
   background-image: url(./images/Background_Intro.png);
+}
+
+body{
+  background-color: var(--gray-200);
 }
 
 /* Cores e Fontes */
@@ -47,7 +51,7 @@ div{
   height: 380px;
   margin-top: 120px;
   margin-right: 343px;
-  margin-left: 343px;
+  margin-left: 300px;
   span{color: var(--red)}
 }
 
@@ -80,3 +84,4 @@ div{
   height: 112px;
   margin-left: 320px;
 }
+
