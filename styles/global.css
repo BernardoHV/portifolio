@@ -11,6 +11,8 @@
 }
 
 body{
+  max-width: 1307px;
+  height: auto;
   background-color: var(--gray-200);
 }
 
@@ -32,17 +34,17 @@ body{
  
   /* Font Asap */
   --font-family-asap: 'Asap', sans-serif;
-  --title-lg: 800 56px/120% bold var(--font-family-asap);
-  --title-md: 800 24px/120% bold var(--font-family-asap);
-  --title-sm: 800 16px/120% bold var(--font-family-asap);
+  --title-lg: 300 56px/120% var(--font-family-asap);
+  --title-md: 800 24px/120% var(--font-family-asap);
+  --title-sm: 100 16px/120% var(--font-family-asap);
 
   /* Font Inconsolata */
   --font-family-inconsolata: 'inconsolata';
-  --subtitle-in: 800 20px/120% var(--font-family-inconsolata);
+  --subtitle-in: 100 20px/120% var(--font-family-inconsolata);
 
   /* Font Maven Pro */
   --font-family-maven: 'maven pro';
-  --text-md: 800 16px/140% var(--font-family-maven);
+  --text-md: 900 16px/140% var(--font-family-maven);
   --text-sm: 800 14px/140% var(--font-family-maven);
 }
 
@@ -126,6 +128,5 @@ width: 32px;
 height: 32px;
 left: calc(50% - 32px/2);
 top: 661px;
-
 }
 

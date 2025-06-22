@@ -1,0 +1,35 @@
+#projetos{
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 72px 120px 144px;
+gap: 56px;
+
+width: 1307px;
+height: 517px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+initial-pjt{
+  width: 1040px;
+  height: 300px;
+  padding: 8px;
+}
+
+h1{
+  font: var(--text-md);
+  color: var(--gray-600);
+  font-size: 24px;
+}
+
+h3{
+  font: var(--subtitle-in);
+  color: var(--red);
+  text-align: center;
+}
+
