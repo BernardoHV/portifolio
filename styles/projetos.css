@@ -7,7 +7,7 @@ padding: 72px 120px 144px;
 gap: 56px;
 
 width: 1307px;
-height: 517px;
+height: 610px;
 
 flex: none;
 order: 1;
@@ -15,11 +15,7 @@ align-self: stretch;
 flex-grow: 0;
 }
 
-initial-pjt{
-  width: 1040px;
-  height: 300px;
-  padding: 8px;
-}
+
 
 h1{
   font: var(--text-md);
@@ -35,9 +31,9 @@ h3{
 
 
 main{
-width: 1340px;
-height: 584px;
-margin-top: -189px;
+width: 1300px;
+height: 717px;
+margin-top: -280px;
 }
 
 section{
@@ -82,5 +78,14 @@ flex-grow: 0;
           font: var(--text-sm);
           color: var(--gray-500);
         }
+    
 }
 
+.card:hover{
+  background-color: rgba(43, 43, 43, 0.46);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

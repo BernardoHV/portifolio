@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#services{
+  max-width: 1307px;
+  height: 550px;
+  background-color: var(--gray-100);
+}
+
+#myservices{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 395px;
+  height: 81px;
+  padding: 0px;
+  margin-left: 450px;
+}
+
+
