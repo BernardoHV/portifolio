@@ -8,11 +8,11 @@
   width: 1307px;
   height: 600px;
   background-image: url(./images/Background_Intro.png);
+  background-repeat: round;
 }
 
 body{
   max-width: 1307px;
-  height: auto;
   background-color: var(--gray-200);
 }
 
@@ -35,8 +35,8 @@ body{
   /* Font Asap */
   --font-family-asap: 'Asap', sans-serif;
   --title-lg: 300 56px/120% var(--font-family-asap);
-  --title-md: 800 24px/120% var(--font-family-asap);
-  --title-sm: 100 16px/120% var(--font-family-asap);
+  --title-md: 24px/120% var(--font-family-asap);
+  --title-sm: 16px/120% var(--font-family-asap);
 
   /* Font Inconsolata */
   --font-family-inconsolata: 'inconsolata';

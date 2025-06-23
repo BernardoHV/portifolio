@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fimcontatos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid red;
+  width: 1037;
+  height: 787px;
+  background-image: url("/styles/images/Background_Contacts.png");
+  background-repeat: round;
+  padding: 128 120 200 120;
+}
+
+#contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 440px;
+  height: 91px;
+  border: solid red;
+  margin-top: 128px;
+
+      span{
+        font: var(--subtitle-in);
+        color: var(--purple);
+      }
+      h1{
+        font: var(--text-md);
+        color: var(--gray-600);
+        font-size: 24px;
+      }
+      h2{
+        font: var(--subtitle-in);
+        color: var(--gray-600);
+        font-size: 16px;}
+}
